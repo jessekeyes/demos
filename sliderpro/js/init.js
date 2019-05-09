@@ -12,5 +12,6 @@ jQuery( '#my-slider' ).sliderPro({
 		mediumSize: 1000,
 		largeSize: 3000,
 		thumbnailArrows: true,
+    autoHeight: true;
 
 });
