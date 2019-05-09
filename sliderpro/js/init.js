@@ -1,4 +1,9 @@
 
-	jQuery( document ).ready(function( $ ) {
-		$( '#my-slider' ).sliderPro();
-	});
+
+jQuery( '#my-slider' ).sliderPro({
+
+    width: 1200,
+    height: 800,
+    fullscreen: true,
+
+});
