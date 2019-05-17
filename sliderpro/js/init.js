@@ -2,8 +2,8 @@
 
 jQuery( '#my-slider' ).sliderPro({
 
-    width: 1100,
-    height: 800,
+    width: '100%',
+    height: '75%',
     fullScreen: true,
     autoplay: false,
     arrows: true,
