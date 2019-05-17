@@ -11,7 +11,14 @@ jQuery( '#my-slider' ).sliderPro({
     smallSize: 500,
 		mediumSize: 1000,
 		largeSize: 3000,
-		thumbnailArrows: true,
+		thumbnailArrows: false,
     autoHeight: true,
+    thumbnailWidth: 50,
+    aspectRatio: 4,
+    breakpoints: {
+		800: {
+			thumbnailWidth: 120,
+		}
+	}
 
 });
